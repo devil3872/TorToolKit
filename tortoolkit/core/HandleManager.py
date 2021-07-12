@@ -595,7 +595,7 @@ async def set_password_zip(message):
             await message.reply(f"Cannot update the password this is not your download.")
 
 async def start_handler(event):
-    msg = "Hello This is TorToolkitX running on heroku an instance of <a href='https://github.com/XcodersHub/TorToolkitX'>This Repo</a>. Try the repo for yourself and dont forget to put a STAR and fork."
+    msg = "Hello This is TorToolKit"
     await event.reply(msg, parse_mode="html")
 
 def progress_bar(percentage):
@@ -761,11 +761,10 @@ async def about_me(message):
     diff = Human_Format.human_readable_timedelta(diff)
 
     msg = (
-        "<b>Name</b>: <code>TorToolkitX-Heroku</code>\n"
+        "<b>Name</b>: <code>TorToolkit</code>\n"
         f"<b>Version</b>: <code>{__version__}</code>\n"
         f"<b>Telethon Version</b>: {telever}\n"
         f"<b>Pyrogram Version</b>: {pyrover}\n"
-        "<b>Modified By</b>: @XcodersHub\n\n"
         "<u>Currents Configs:-</u>\n\n"
         f"<b>Bot Uptime:-</b> {diff}\n"
         "<b>Torrent Download Engine:-</b> <code>qBittorrent [4.3.0 fix active]</code> \n"
@@ -789,7 +788,6 @@ async def about_me(message):
         "10.Overall download and upload progress.\n"
         "11.Pixeldrain DL support.\n"
         "12.Alert on when the bot boots up.\n"
-        "<b>13.Fixed Heroku Stuff.</b>\n"
     )
 
     await message.reply(msg,parse_mode="html")
@@ -870,7 +868,7 @@ async def booted(client):
     chats = get_val("ALD_USR")
     for i in chats:
         try:
-            await client.send_message(i, "The bot is booted and is ready to use.")
+            await client.send_message(i, "The bot is restarted and is ready to use.")
         except Exception as e:
             torlog.info(f"Not found the entity {i}")
 def command_process(command):
