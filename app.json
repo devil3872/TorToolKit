@@ -8,6 +8,10 @@
   "repository": "https://github.com/yash-dk/TorToolkit-Telegram",
   "success_url": "www.google.com",
   "website": "https://github.com/yash-dk/TorToolkit-Telegram",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
  }
   },
   "stack": "container"
