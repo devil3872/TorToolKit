@@ -49,7 +49,7 @@ Following are some awesome features offered by this bot:-
 
 ## ***Heroku***
 ### This repo will definitely work on heroku
-[![Deploy](https://telegra.ph/file/e7d224c45cf1d106a28fa.png)](https://dasboard.heroku.com/new?template=https://github.com/yourgithubname/slam-mirrorbot)
+<p><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 ## ***Zeet***
 According to me, this platform provides resources that are enough for a genuine user and by default prevents Abuse:
