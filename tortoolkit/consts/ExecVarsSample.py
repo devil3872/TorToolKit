@@ -6,16 +6,16 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "e8c152560d317f66aba81616b81126e7"
+        API_ID = 4407458
+        BOT_TOKEN = "1945923629:AAFRVre4IEHqUaCWxs3zp8Q5zLkFAw2nxs4"
+        BASE_URL_OF_BOT = "tortoolkitappjsontest.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
+        ALD_USR = [1822954034]
         OWNER_ID = 0
         
         # Google Drive Index Link should include the base dir also See readme for more info
